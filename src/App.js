@@ -1,8 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  if (1 == "2") {
+    console.log("needs more equals");
+  }
   return (
     <div className="App">
       <header className="App-header">
